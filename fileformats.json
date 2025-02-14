@@ -86,7 +86,7 @@
   {
     "name": "UGrid",
     "ring": "assess",
-    "quadrant": "Time depended Geo-spatial",
+    "quadrant": "Time-dependent Geo-spatial",
     "isNew": "FALSE",
     "description": "UGrid is a file format for unstructured grid data. It is used in the field of computational fluid dynamics."
   }
