@@ -1,29 +1,92 @@
 [
   {
     "name": "Ini file",
-    "ring": "hold",
-    "quadrant": "Key-Value Stores",
+    "ring": "assess",
+    "quadrant": "Configuration",
     "isNew": "TRUE",
     "description": "The INI file format is an informal standard for storing key-value pairs on storage media. The format has been widely used in Microsoft Windows and later adopted by some programs in Unix-like systems."
   },
   {
-    "name": "Csv file",
-    "ring": "adopt",
-    "quadrant": "Time Series",
-    "isNew": "FALSE",
-    "description": "A comma-separated values (CSV) file is a delimited text file that uses a comma to separate values. Each line of the file is a data record. Each record consists of one or more fields, separated by commas."
+    "name": "Json",
+    "ring": "assess",
+    "quadrant": "Configuration",
+    "isNew": "TRUE",
+    "description": "JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate. It does not support comments."
   },
   {
-    "name": "Shape file",
-    "ring": "hold",
-    "quadrant": "Spatial data",
+    "name": "Toml",
+    "ring": "assess",
+    "quadrant": "Configuration",
     "isNew": "TRUE",
-    "description": "Apache Kylin is an open source analytics solution ..."
+    "description": "TOML (Tom's Obvious, Minimal Language) is a data serialization language designed to be easy to read and write due to obvious semantics. TOML is designed to map unambiguously to a hash table."
+  },
+  {
+    "name": "Yaml",
+    "ring": "assess",
+    "quadrant": "Configuration",
+    "isNew": "TRUE",
+    "description": "YAML (YAML Ain't Markup Language) is a human-readable data serialization standard that can be used in conjunction with all programming languages and is often used to write configuration files."
+  },
+  {
+    "name": "XML",
+    "ring": "assess",
+    "quadrant": "Configuration",
+    "isNew": "TRUE",
+    "description": "Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. The design goals of XML emphasize simplicity, generality, and usability across the Internet."
+  },
+  {
+    "name": "Csv file",
+    "ring": "assess",
+    "quadrant": "Tabular",
+    "isNew": "FALSE",
+    "description": "A comma-separated values (CSV) file is a delimited text file that uses a comma to separate values. Each line of the file is a data record. Each record consists of one or more fields, separated by commas. Motivation: Simple and human-readable, but lacks metadata support"
+  },
+  {
+    "name": "Arrow file",
+    "ring": "assess",
+    "quadrant": "Tabular",
+    "isNew": "FALSE",
+    "description": "Apache Arrow is a cross-language development platform for in-memory data. It specifies a standardized language-independent columnar memory format for flat and hierarchical data, organized for efficient analytic operations on modern hardware like CPUs and GPUs."
+  },
+  {
+    "name": "NetCDF",
+    "ring": "assess",
+    "quadrant": "Tabular",
+    "isNew": "FALSE",
+    "description": "NetCDF (Network Common Data Form) is a set of software libraries and machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data."
+  },
+  {
+    "name": "GeoPackage",
+    "ring": "assess",
+    "quadrant": "Geo-spatial",
+    "isNew": "TRUE",
+    "description": "GeoPackage is an open, standards-based, platform-independent, portable, self-describing, compact format for transferring geospatial information. It is based on SQLite database format."
+  },  
+  {
+    "name": "GeoJSON",
+    "ring": "assess",
+    "quadrant": "Geo-spatial",
+    "isNew": "TRUE",
+    "description": "GeoJSON is an open standard format designed for representing simple geographical features, along with their non-spatial attributes. It is based on JavaScript Object Notation."	
+  },
+  {
+    "name": "GeoTIFF",
+    "ring": "assess",
+    "quadrant": "Geo-spatial",
+    "isNew": "TRUE",
+    "description": "GeoTIFF is a public domain metadata standard which allows georeferencing information to be embedded within a TIFF file. The potential additional information includes map projection, coordinate systems, ellipsoids, datums, and everything else necessary to establish the exact spatial reference for the file."
+  },
+  {
+    "name": "GDF",
+    "ring": "assess",
+    "quadrant": "Geo-spatial",
+    "isNew": "TRUE",
+    "description": "GDF (Geographic Data Files) is a file format for storing geographic data. It is used in the field of geographic information systems."
   },
   {
     "name": "UGrid",
-    "ring": "adopt",
-    "quadrant": "Time and spatially related data",
+    "ring": "assess",
+    "quadrant": "Time depended Geo-spatial",
     "isNew": "FALSE",
     "description": "UGrid is a file format for unstructured grid data. It is used in the field of computational fluid dynamics."
   }
